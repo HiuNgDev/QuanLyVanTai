@@ -1,0 +1,217 @@
+
+body{
+    height: 100%;
+}
+
+.paragraph{
+    white-space: pre-wrap; 
+    overflow: hidden;
+  text-overflow: ellipsis; 
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+     display: -webkit-box;
+     color:white;
+    
+     margin-top: 1rem;
+}
+
+.image__app__googleplay{
+    margin-left: 20px;
+}
+
+.title__div{
+    margin-left: 130px;
+}
+
+.title__span{
+    color: #fff;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 131.77%;
+}
+
+.image_app{
+    display: flex;
+    margin-top: 20px;
+}
+
+.header-bg{
+    background-image: url('view/image_svg/trangchu.svg');
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.footer-bg{
+    margin-top: 4rem;
+    background-image: url('view/image/footer.png');
+    width:100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+/* .footer{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+} */
+
+
+
+@media only screen and (max-width: 46.1875em) {
+    .image_app{
+        display: block;
+        text-align: center;
+    }
+    .image__app__googleplay{
+        margin-left: 0;
+    }
+    .image__app__googleplay > img{
+        margin-top: 10px;
+        width: 30%;
+    }
+    .image__app__store > img {
+        width: 30%;
+    }
+    .title__span{
+        font-size: 30px;
+    }
+    .title__div{
+        margin-left: 0;
+        text-align: center;
+    }
+    .one{
+        margin-top: 1rem !important;
+    }
+
+    .two{
+        margin-top: 1rem  !important;
+    }
+    .two > div{
+        height: 300px !important;
+    }
+    
+    .trangchu{
+        display: none;
+    }
+
+    .polygon{
+        text-align: center;
+    }
+
+    .polygoner{
+        margin-top: 1rem;
+    }
+
+    .header-bg-bg{
+        margin-left: 0rem !important;
+    }
+
+    .header-app{
+        width:100% !important;   
+        
+    }
+
+    .header-app1{
+        width: 60% !important;
+        margin-left: 2.5rem;
+    }
+
+    .download{
+        margin-left: 1rem !important;
+    }
+
+    .footer-bg{
+        background-size: contain !important;
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+        ;
+    }
+
+    .footer-bg > .container {
+        padding-right: 0px !important;
+        
+        margin-left: 0px !important;
+        background: rgba(74, 79, 204, 1);
+        
+    }
+
+    .footer-bg-div{
+        margin-bottom: 2rem !important;
+    }
+
+    .mutual_benefit{
+        margin-top: 2rem;
+    }
+
+    .footer-row{
+        width: 375px;
+    }
+
+    .modal-size{
+        margin-left: 3rem !important;
+    }
+
+    .modal-submit{
+        margin-left: 2.5rem !important;
+    }
+
+    .form-modal{
+        margin-left: 2.5rem;
+    }
+
+    .polygon{
+        margin-left: 0rem !important;
+    }
+
+    .image-polygon{
+        width: 40% !important;
+        margin-left: 5.6rem !important;
+    }
+    
+  }
+
+  @media only screen and (min-width: 46.1875em) {
+    .trangchu1{
+        display: none;
+    }
+
+    
+  }
+
+  .modal-submit{
+      font-size: 14px !important;
+      width: 75%;
+      margin-left: 3.7rem ;
+      background: #474CC9 !important;
+  }
+
+  .modal-size{
+      font-size: 24px !important;
+      font-weight: bold !important;
+      color: #4145B8 !important;
+      margin-top: 3rem;
+  }
+
+  /* .hex{
+      background: url('dhl.svg');
+      position: absolute !important;
+  } */
+
+
+  
+
+  
